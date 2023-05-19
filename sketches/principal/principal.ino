@@ -28,20 +28,6 @@ void setup() {
 
 void loop() {
   sensorValue = digitalRead(sensorPin); // Leer el valor del sensor
-  
-  
-  if (sensorValue == 0){
-    bluetoothSerial.write("tomar foto");
-    while(sensorValue == 0){
-        Serial.println("Detecto Alguna Chimbada y no se ha movido del sensor");
-        sensorValue = digitalRead(sensorPin);
-        delay(1000);
-        char data = bluetoothSerial.read();
-        Serial.println(data);
-        delay(1000);
-        
-    }
-  }else{
-    Serial.println("No hay objeto");
-  }
+  Serial.println("Hello World");
+  Serial.println(sensorValue); // Imprimir información para depuración
 }
