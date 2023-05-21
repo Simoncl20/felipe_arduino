@@ -11,10 +11,10 @@ const int servoPin = 2;      // Pin del x motor
 
 
 // Pines del motor
-#define forward 4
-#define forward2 5
-#define backward 3
-#define backward2 6
+#define forward 3
+#define forward2 6
+#define backward 4
+#define backward2 5
 #define buzzer 9
 
 Servo myServo;               // Objeto de la librería Servo

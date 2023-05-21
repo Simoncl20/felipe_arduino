@@ -2,8 +2,8 @@
 # include <Servo.h>
 
 
-#define forward 8
-#define forward2 11
+#define forward 3
+#define forward2 6
 #define backward 9
 #define backward2 10
 
